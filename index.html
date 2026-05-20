@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Medlib Login</title>
-  <link rel="stylesheet" href="./styles/style-main.cs">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medlib Login</title>
+    <link rel="stylesheet" href="./styles/style-main.cs">
 </head>
 <body>
     <div class="Header">
@@ -12,17 +12,19 @@
             <p>Welcome to Medlib</p>
         </div>
     </div>
-    <main class="login-card">
-        <h1>Log in</h1>
-        <form>
-            <label for="email">Email address</label>
-            <input type="email" id="email" name="email" placeholder="you@example.com" required>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" required>
-            <button type="submit">Sign In</button>
-        </form>
-    <p class="help-text">Forgot your password? <a href="#">Reset it</a></p>
-    </main>
+    <div class="middle-body">
+        <main class="login-card">
+            <h1>Log in</h1>
+            <form>
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <button type="submit" href="./pages/main-nav.html">Sign In</button>
+            </form>
+        <p class="help-text">Forgot your password? <a href="#">Reset it</a></p>
+        </main>
+    </div>
     <div class="Footer">
         <p id="mission-text"><a href="#">Our Mission</a></p>
         <p id="contact-text"><a href="#">Contact Us</a></p>

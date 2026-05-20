@@ -1,8 +1,8 @@
-    /*The main structure of the body*/
+/*The main structure of the body*/
 body {
     margin: 0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: #f3f7fb;
+    background: #f2efef;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,14 +10,14 @@ body {
     height: 100vh;
 }
     
-    /*Styling for the header */
+/*Styling for the header */
 .Header {
     display: flex;
     flex-direction: row;
     flex: 0;
     justify-content: center;
     width: 100%;
-    background-color: #1d4ed8;
+    background-color: #05668D;
     font-size: 32px;
     font-weight: 700;
 }
@@ -49,11 +49,29 @@ body {
     text-decoration: none;
 }
 
-    /*The login card styling*/
+/* Middle Body Styling */
+.middle-body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    border: 4px solid #f3e5bd;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+    height: 90%;
+    width: 30%;
+    border-radius: 12px;
+}
+
+/*The login card styling*/
 .login-card {
     background: #ffffff;
     padding: 32px;
     border-radius: 12px;
+    border: 4px solid #f3e5bd;
     box-shadow: 0 12px 24px rgba(0,0,0,0.08);
     width: 320px;
 }
