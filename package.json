@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "sql.js": "^1.14.1"
-  }
+    "sql.js": "^1.14.1",
+    "sqlite3": "^6.0.1"
+  },
+  "name": "medlib",
+  "version": "1.0.0",
+  "description": "Medlib, or medical library, is a structured interface for pharmacy techs to catagorize, facilitate and process the sale and supply of medications for clients behind the counter. Goals for this project include a functional database of common medications, a functional token authentication system for employees and administators, integration with pricing to prepare for POS interfacing as well as a functional and clean UX for employees to seamlessly navigate with minimal training. Hosting and integration with storefronts needs to be easily accessible with third party hosting services such as AWS in order to be accessible to businesses looking to partner with these major providers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moxxiiiiiii/medlib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moxxiiiiiii/medlib/issues"
+  },
+  "homepage": "https://github.com/Moxxiiiiiii/medlib#readme"
 }
